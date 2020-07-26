@@ -1,0 +1,32 @@
+@keyframes product01{
+    0%,100%{
+        transform: translateY(15px);
+    }
+    50%{
+        transform: translateY(-15px);
+    }
+}
+@keyframes shapes01{
+    0%,100%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(50px);
+    }
+}
+@keyframes shapes02{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes shapes03{
+    0%,100%{
+        transform: scale(0.5);
+    }
+    50%{
+        transform: scale(1);
+    }
+}
